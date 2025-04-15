@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Danah Mae I. Malabanan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">Loading...</div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Danah Mae</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle" id="theme-toggle">🌓</div>
+  </header>
+
+  <section id="home" class="section home-section">
+    <div class="home-content" data-aos="fade-up">
+      <div class="home-text">
+        <h1 class="greeting">Hello! I'm</h1>
+        <h2 class="name">Danah Mae I. Malabanan</h2>
+        <p class="subtitle">2nd Year <span>BSIT</span> Student</p>
+        <p id="typewriter" class="static-type"></p>
+        <p id="typewriter-roles" class="dynamic-type"></p>
+        <a href="#contact" class="btn-main">Contact Me</a>git init
+
+      </div>
+  
+      <div class="home-image" data-aos="zoom-in">
+        <img src="danah.jpg" alt="Danah Mae" />
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-right">
+    <div class="glass">
+      <h2 class="section-title">About Me</h2>
+      <p>I am enthusiastic and dedicated student pursuing a degree in Information Technology, major in software development at Pamantasan ng Lungsod ng San Pablo. I am eager to apply my academic knowledge to real world projects and internships. Throughout my studies, I have developed skills in programming languages, design tools, research and communication. I am always looking for opportunities to learn, grow, and contribute to meaningful projects. As a quick learner, I am excited to take on new challenges and expand my professional experiences.
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+  
+    <div class="skills-wrapper" data-aos="fade-up">
+  
+      <!-- Soft Skills -->
+      <div class="skills-category">
+        <h3 class="skills-heading"><i class="fas fa-user-check"></i> Soft Skills</h3>
+        <div class="skills-list">
+          <div class="skill-item"><i class="fas fa-clock"></i> Time Management</div>
+          <div class="skill-item"><i class="fas fa-bolt"></i> Initiative</div>
+          <div class="skill-item"><i class="fas fa-headphones-alt"></i> Active Listener</div>
+          <div class="skill-item"><i class="fas fa-sync-alt"></i> Adaptability</div>
+        </div>
+      </div>
+  
+      <!-- Frontend Skills -->
+      <div class="skills-category">
+        <h3 class="skills-heading"><i class="fas fa-code"></i> Frontend Skills</h3>
+        <div class="skills-list">
+          <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
+          <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+          <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+  
+
+  <section id="education" class="section">
+    <h2 class="section-title" data-aos="fade-down">Education</h2>
+    <div class="education-container">
+  
+      <!-- College -->
+      <div class="flip-card" data-aos="zoom-in">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>College</h3>
+            <p>Pambansang Unibersidad ng Batangas</p>
+          </div>
+          <div class="flip-card-back">
+            <h4>BS in Information Technology</h4>
+            <p>2nd Year Student</p>
+            <p>2023 - Present</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Senior High -->
+      <div class="flip-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Senior High</h3>
+            <p>Batangas National High School</p>
+          </div>
+          <div class="flip-card-back">
+            <h4>ICT Strand</h4>
+            <p>2021 - 2023</p>
+            <p>With Honors</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Junior High -->
+      <div class="flip-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3>Junior High</h3>
+            <p>Batangas National High School</p>
+          </div>
+          <div class="flip-card-back">
+            <h4>Junior High Level</h4>
+            <p>2017 - 2021</p>
+            <p>With Honors</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  
+
+  <section id="contact" class="section">
+    <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+    <div class="contact-container" data-aos="zoom-in-up">
+  
+      <div class="contact-card">
+        <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
+          <div class="input-group">
+            <label for="name"><i class="fas fa-user"></i> Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+          </div>
+  
+          <div class="input-group">
+            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+          </div>
+  
+          <div class="input-group">
+            <label for="message"><i class="fas fa-comment-dots"></i> Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Write your message"></textarea>
+          </div>
+  
+          <button type="submit" class="contact-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Danah Mae I. Malabanan | All Rights Reserved</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn">↑</button>
+
+  <!-- FontAwesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
